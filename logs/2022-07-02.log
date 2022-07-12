@@ -1,0 +1,6 @@
+2022-07-02 20:24:19,646 - [test_register_case.py-->line:42] - INFO: 用例---【登录成功】---执行成功
+2022-07-02 20:24:19,721 - [test_register_case.py-->line:42] - INFO: 用例---【账号错误】---执行成功
+2022-07-02 20:24:19,793 - [test_register_case.py-->line:42] - INFO: 用例---【密码错误】---执行成功
+2022-07-02 20:31:37,299 - [test_register_case.py-->line:42] - INFO: 用例---【登录成功】---执行成功
+2022-07-02 20:31:37,374 - [test_register_case.py-->line:42] - INFO: 用例---【账号错误】---执行成功
+2022-07-02 20:31:37,448 - [test_register_case.py-->line:42] - INFO: 用例---【密码错误】---执行成功

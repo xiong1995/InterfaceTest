@@ -1,0 +1,15 @@
+- title: 登录成功
+  params:
+    username: python35
+    password: lemonban
+  expected:
+    code: 0
+    msg: 登录成功
+
+- title: 登录失败
+  params:
+    username: python35
+    password: lemonban1
+  expected:
+    code: 1
+    msg: 登录失败
