@@ -4,10 +4,6 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
@@ -16,14 +12,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a183b53-1b0e-4f90-8f06-e91a07956bb2" name="Default Changelist" comment="123">
-      <change afterPath="$PROJECT_DIR$/study/socket/客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/socket/服务端.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/InterfaceTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/InterfaceTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="56f9573de25aad2da6fabea0a3061707b49bb099" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -57,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -174,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.客户端" />
-        <item itemvalue="Python.服务端" />
         <item itemvalue="Python.随机生成ip" />
         <item itemvalue="Python.编程题4" />
         <item itemvalue="Python.编程题1" />
+        <item itemvalue="Python.服务端" />
+        <item itemvalue="Python.客户端" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +201,7 @@
       <workItem from="1658918263085" duration="13240000" />
       <workItem from="1659686427205" duration="1928000" />
       <workItem from="1661693907691" duration="39000" />
-      <workItem from="1661693953156" duration="4926000" />
+      <workItem from="1661693953156" duration="5729000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1657658302754</created>
@@ -226,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661694074520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="123">
+      <created>1661699155247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661699155247</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +249,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -261,6 +285,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="254" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659687763528" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1661699921005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661699921005" />
     <state x="1199" y="404" key="Github.ShareDialog" timestamp="1657658537943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,10 +329,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1092" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1658934402304" />
-    <state x="930" y="240" key="Vcs.Push.Dialog.v2" timestamp="1657658744526">
+    <state x="806" y="432" key="VCS.ChangelistChooser" timestamp="1661699595781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="930" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1657658744526" />
+    <state x="806" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1661699595781" />
+    <state x="930" y="240" key="Vcs.Push.Dialog.v2" timestamp="1661699499484">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="930" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1661699499484" />
+    <state x="769" y="359" key="git4idea.ui.GitTagDialog" timestamp="1661699872916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="359" key="git4idea.ui.GitTagDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1661699872916" />
     <state x="237" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1658930455800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
